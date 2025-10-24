@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  background-color: #120561;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#pai {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    color: beige;
+}
+
+#opcoes {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#opcoes button {
+    width:800px;
+    height: 100px;
+    font-size: 1.9em;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#resultado {
+
+}
