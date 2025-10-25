@@ -50,8 +50,8 @@
 
     let contador = 0;
     let acertos = 0;
-    let numeroDePerguntas = 100
-    numeroDePerguntas.document.getElementById("contadorPerguntas")
+    //let numeroDePerguntas = 100
+    //numeroDePerguntas.document.getElementById("contadorPerguntas")
 
     function atualizarContador() {
       document.getElementById("contadorPerguntas").textContent = 
@@ -83,15 +83,13 @@
         acertos++;
         resultado.textContent = "✅ Resposta certa!";
         resultado.style.color = "limegreen";
-        resultado.style.fontSize = "400px";
       } else {
         resultado.textContent = "❌ Resposta errada!";
         resultado.style.color = "red";
-        resultado.style.fontSize = "400px";
 
       }
 
-      resultado.style.fontSize = "1.5em";
+      resultado.style.fontSize = "2em";
 
       setTimeout(() => {
         contador++;
@@ -113,10 +111,10 @@
       }
     }
 
-    function tabelaDeAcertos {
-        if(contador.length  100) {
-
-        }
-    }
+    //function tabelaDeAcertos {
+      //  if(contador.length  100) {
+//
+  //      }
+    //}
 
     mostrarPergunta();

@@ -34,3 +34,12 @@ body{
 p {
     font-size: 2em;
 }
+
+#contadorPerguntas {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-right: 30px;
+    font-size: 2em;
+    color: aliceblue;
+}
