@@ -3,7 +3,8 @@ body{
   background-color: #120561;
   overflow-x: hidden;
   display: flex;
-  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 #pai {
@@ -30,6 +31,6 @@ body{
     border-radius: 15px;
 }
 
-#resultado {
-
+p {
+    font-size: 2em;
 }
