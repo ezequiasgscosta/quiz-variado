@@ -1,5 +1,5 @@
 /* pc.css — estilos para telas de desktop (PC) */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
 
     /* #opcoes em duas colunas para desktop */
     #opcoes {
