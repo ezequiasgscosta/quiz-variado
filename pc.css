@@ -12,13 +12,18 @@
 
     /* botões preenchem cada coluna; removemos margin e usamos gap */
     #opcoes button {
-        width: 100%;
-        height: 80px;
+        width: 500px;
+        height: 60px;
         font-size: 1.9em;
         margin: 0;
         border-radius: 15px;
         transition: 0.5s all ease;
     }
+
+    #opcoes button:hover {
+    height: 70px;
+    border: 5px solid red;
+}
 
     #contadorPerguntas {
     position: fixed;
