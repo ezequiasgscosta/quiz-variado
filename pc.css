@@ -1,0 +1,32 @@
+/* pc.css — estilos para telas de desktop (PC) */
+@media screen and (min-width: 900px) {
+
+    /* #opcoes em duas colunas para desktop */
+    #opcoes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        align-items: start;
+        font-size: 20px;
+    }
+
+    /* botões preenchem cada coluna; removemos margin e usamos gap */
+    #opcoes button {
+        width: 100%;
+        height: 80px;
+        font-size: 1.9em;
+        margin: 0;
+        border-radius: 15px;
+        transition: 0.5s all ease;
+    }
+
+    #contadorPerguntas {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+}
